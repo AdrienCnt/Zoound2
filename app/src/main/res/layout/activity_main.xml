@@ -12,24 +12,12 @@
     <Button
         android:layout_width="100dp"
         android:layout_height="100dp"
-        android:background="@drawable/forest"
-        android:id="@+id/forestBtn"
-        android:layout_marginTop="39dp"
+        android:background="@drawable/farm_screen"
+        android:id="@+id/farmBtn"
         android:layout_below="@+id/textView"
         android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" />
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textAppearance="?android:attr/textAppearanceMedium"
-        android:text="Forest"
-        android:id="@+id/forestTxt"
-        android:layout_marginLeft="22dp"
-        android:layout_marginStart="22dp"
-        android:layout_below="@+id/forestBtn"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" />
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="54dp" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -38,7 +26,14 @@
         android:text="Select a Location"
         android:id="@+id/textView"
         android:layout_alignParentTop="true"
-        android:layout_toRightOf="@+id/forestBtn"
-        android:layout_toEndOf="@+id/forestBtn" />
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="@drawable/jungle_screen"
+        android:id="@+id/button"
+        android:layout_alignTop="@+id/farmBtn"
+        android:layout_centerHorizontal="true" />
 
 </RelativeLayout>
